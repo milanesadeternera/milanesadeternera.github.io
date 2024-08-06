@@ -1,0 +1,41 @@
+body{
+    background-color: #282828;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    margin-top: 50px;
+    width: 50%;
+}
+
+.contenido {
+    display: flex;
+}
+.left, .right {
+    flex: 1;
+}
+
+.right{
+    text-align: right;
+}
+
+.foto{
+    border-radius:10%;
+    width: 350px;
+    height: 350px;
+}
+
+h1, p {
+    color: white;
+}
+p{
+    font-size: large;
+}
+
+#conocimientos{
+    columns: 2;
+}
+#experiencia{
+    direction: rtl;
+}
+#pie{
+    text-align: center;
+}
