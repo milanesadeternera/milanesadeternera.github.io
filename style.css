@@ -1,5 +1,6 @@
 body{
     background-color: #282828;
+    color:white;
 }
 
 h1, p {
@@ -17,7 +18,9 @@ h1, p {
 ul{
     padding-left:0px;
 }
+.captura{
 
+}
 
 /*
 Bootstrap windows size:
@@ -30,8 +33,12 @@ Extra extra large	xxl	≥1400px
 
 
 @media (max-width: 767px) {
-    h1, p{
+    h1,h4, p{
         text-align: center !important;
+    }
+    .linkButton{
+        display: flex;
+        justify-content: center;
     }
     #infoCon{
         flex-direction: column-reverse;   
